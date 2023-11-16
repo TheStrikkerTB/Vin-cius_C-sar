@@ -1,0 +1,45 @@
+body {
+    font-family: "Roboto Mono", monospace;
+    text-align: center;
+    background-color: #000000;
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+    height: 100vh; /* Define a altura do body como 100% da altura da viewport */
+    background: linear-gradient(to bottom, #3498db, #9b59b6); /* Cria um degradê de azul para roxo */
+  }
+  
+  
+  .container {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .page-title {
+    color: #ffffff;
+    margin: 0 0 5px;
+  }
+  
+  .page-subtitle {
+    color: #ffffff;
+    margin-top: 5px;
+  }
+  
+  .page-logo {
+    width: 100%; /* A largura da logo ocupará 100% do contêiner pai */
+    max-width: 400px; /* Defina uma largura máxima para a logo */
+    height: auto; /* Mantém a proporção da altura conforme a largura muda */
+    display: block; /* Remove espaçamento extra ao redor da logo */
+    margin: auto; /* Centraliza a logo horizontalmente */
+  }
+  
+
+  
+  body > img {
+    margin: 10px 10px;
+  }
+  
+  img {
+    max-height: 250px;
+  }
+  
