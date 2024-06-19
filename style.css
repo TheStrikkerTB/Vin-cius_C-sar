@@ -6,7 +6,7 @@ body {
     background-position: center top;
     background-repeat: no-repeat;
     height: 100vh; /* Define a altura do body como 100% da altura da viewport */
-    background: linear-gradient(to bottom, #3498db, #9b59b6); /* Cria um degradê de azul para roxo */
+    background-image: url(imagemFundo.png);
   }
   
   
